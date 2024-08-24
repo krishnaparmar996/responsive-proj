@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    background-color: red;
+    width: 100%;
+    display: flex;
+ }
+#left{
+    width: 35%;
+    height: 100%;
+    background-color: aliceblue;
+ 
+    
+}
+#nav{
+     height: 50px;
+     background-color: rgb(131, 111, 111);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px;
+      color: white;
+ 
+
+  }
+  #nav>#navr{
+    display: flex;
+    gap: 10px;
+  }
+  #nav>#navr>a{
+     display: flex;
+ 
+    text-decoration: none;
+ 
+  }
+ #left>#txt{
+text-align: center;
+margin-top: 50%;
+ }
+ #txt>p{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+
+ }
+ #txt>h3>a{
+     color: rgb(163, 30, 30); 
+     padding: 5px;
+     text-decoration: none;
+   }
+
+#right{
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+}
+#rtop{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: flex;
+}
+#rtopl
+{
+    width: 45%;
+    height: 100%;
+    background-color: red;
+background-image: url('https://media.istockphoto.com/id/1364640703/photo/detailed-close-up-of-the-national-flag-of-india-waving-in-the-wind-on-a-clear-day.jpg?s=612x612&w=is&k=20&c=0GIimyKMpQtBDsOaehZdOzl1KmlLyNA25rpnQC4e9cE= ');
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+#rtopr
+{
+    width: 55%;
+    height: 100%;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+    background-color: rgb(231, 247, 10);
+background-image: url('https://media.istockphoto.com/id/2160806359/photo/woman-drinking-tea-while-having-breakfast-on-balcony-during-trip-to-india.webp?b=1&s=170667a&w=0&k=20&c=gpw9EORUGxUjiV6YG68VaVjsI2EkshGPzAgnGaLdKCU=');
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+
+    background-image: url('https://plus.unsplash.com/premium_photo-1671115541037-07661f591d0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnJlZSUyMGltYWdlcyUyMG9yYW5nZXxlbnwwfHwwfHx8MA%3D%3D ');
+    background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+    background-color: rgb(0, 255, 38);
+}
+
+@media (max-width:500px){
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #main>#left{
+        width: 100%;
+    }
+    #main>#right{
+        width: 100%;
+    }
+}
+
